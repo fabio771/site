@@ -589,7 +589,64 @@ transform: translateY(0);
 /* ====================
    RESPONSIVIDADE
 ==================== */
+@media (max-width: 2468px) {
+  /* Ajuste dos elementos do header */
+  #eto,
+  #n {
+    margin-right: 0;
+    font-size: 1.5em;
+  }
+  #home{margin-top: -30px;}
+  nav ul {
+    padding-left: 0;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #con {
+    margin: 10px auto;
+  }
 
+  /* Centraliza a imagem de perfil */
+  #eu {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+  }
+  /* Ajuste nos tamanhos dos textos */
+  #ja {
+    font-size: 2em;
+  }
+  p {
+    font-size: 0.9em;
+  }
+  /* Carousel: aumenta a largura dos slides */
+  .carousel-slide {
+    min-width: 80%;
+  }
+  .carousel-button {
+    font-size: 1.8rem;
+    padding: 0 8px;
+  }
+  /* Timeline de experiência em 100% */
+  .experience-item {
+    width: 100%;
+    float: none;
+    text-align: left;
+  }
+  .experience-timeline::before {
+    left: 20px;
+  }
+  .experience-item::before {
+    left: 12px !important;
+  }
+  /* Footer: itens em coluna */
+  footer .footer-top {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 /* Ajustes para telas com largura máxima de 768px */
 @media (max-width: 968px) {
   /* Ajuste dos elementos do header */
