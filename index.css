@@ -617,6 +617,13 @@ transform: translateY(0);
     margin: 20px auto;
     display: flex;
     justify-content: center;
+     
+  }
+    #euk {
+    width: 40%;       /* Ajuste conforme o layout desejado */
+    height: auto;     /* Mantém a proporção da imagem */
+    margin: 150px auto 0 auto; /* Centraliza a imagem e preserva o espaçamento superior */
+    display: block;
   }
   /* Ajuste nos tamanhos dos textos */
   #ja {
