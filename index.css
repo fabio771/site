@@ -27,7 +27,7 @@ body {
   margin-left: 30px;
 }
 #eto {
-  color: rgb(176, 41, 41);
+  color: #006BAA;
   text-align: center;
   font-size: 2em;
 
@@ -125,7 +125,7 @@ main::before {
   margin-top: 150px;
 }
 #ja {
-  color: rgb(176, 41, 41);
+  color:#006BAA;
   text-align: center;
   padding: 0;
   font-size: 2em;
