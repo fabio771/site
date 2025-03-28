@@ -593,7 +593,7 @@ transform: translateY(0);
 ==================== */
 
 /* Ajustes para telas com largura máxima de 768px */
-@media (max-width: 1268px) {
+@media (max-width: 1998px) {
   /* Ajuste dos elementos do header */
   #eto,
   #n {
